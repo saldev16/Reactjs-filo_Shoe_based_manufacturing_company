@@ -1,0 +1,36 @@
+.login-background {
+    height: 100vh;
+  }
+  .logoo {
+    width: 44px;
+  }
+  .form-content{
+    width: 30rem;
+  }
+  .login-form .form-outline div{
+    width: 100% !important;
+  }
+  .login-form .form-outline div input{
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .login-form .form-outline label{
+    font-size: 0.75rem;
+    font-weight: 600 !important;
+    color:$dark-color;
+    margin: 0 !important;
+    font-family: 'Inter';
+  }
+  
+  .p-checkbox .p-checkbox-box {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 4px !important;
+    margin-top: 6px;
+  }
+  .p-checkbox{
+    align-items: center;
+  }
+  .p-checkbox-box{
+    margin: 0 !important;
+  }

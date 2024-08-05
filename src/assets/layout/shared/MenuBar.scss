@@ -1,0 +1,14 @@
+.menu-bar {
+    background-color: var(--surface-300);
+    position: sticky;
+    top: 4rem;
+    z-index: 999;
+
+    .heading {
+        width: 200px;
+        background-color: bisque;
+    }
+    .menu-tab:hover {
+        background-color: var(--blue-100);
+    }
+}

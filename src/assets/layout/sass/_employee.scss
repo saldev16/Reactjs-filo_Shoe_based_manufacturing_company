@@ -1,0 +1,86 @@
+.label-table {
+    background-color: rgba(243, 243, 243, 1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.heading > .title {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    /* identical to box height, or 33px */
+    /* font main color */
+    color: #414141;
+    opacity: 0.5;
+}
+
+.content-2 {
+    background: #f3f3f3;
+    border-radius: 10px;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+    background: #f3f3f3 !important;
+    padding: 7px 1rem !important;
+}
+
+//  calender
+.calender-datepicker .p-inputtext {
+    border-right: 0 !important;
+}
+
+.calender-datepicker .p-button {
+    background: none;
+    border-left: 0;
+    border-color: #ced4da;
+    position: relative;
+}
+
+.calender-datepicker .p-button:hover {
+    background: none;
+}
+
+.calender-datepicker button.p-button::before {
+    content: "";
+    background: url("../../icons/datepicker.png");
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 15px;
+}
+
+//
+.custom-accordion .p-accordion-header a {
+    border: 0 !important;
+    background: #f3f3f3 !important;
+}
+
+.custom-accordion .p-accordion-content {
+    border: 0 !important;
+}
+.custom-accordion .p-accordion-toggle-icon {
+    position: absolute;
+    right: 10px;
+}
+.option-checkbox a {
+    margin-bottom: 5px;
+    border-radius: 10px !important;
+}
+.submenu-checkbox .p-accordion-header a {
+    background: #fff !important;
+    padding: 0 !important;
+}
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.sicon {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}

@@ -1,0 +1,130 @@
+.category-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    background: rgba(32,151,243,0.1);
+    padding: 8px 16px;
+}
+.category-wrapper-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding: 14px 25px 14px 45px;
+}
+.category-wrapper-child-active{
+    background: #F3F3F3;
+}
+.p-chip {
+    border-radius: 5px;
+}
+.p-chip .p-chip-text {
+    line-height: 1;
+}
+.category-wrapper-active{
+    background: rgba(32,151,243,0.5);
+}
+.child-main-wrapper{
+    max-height: 100%;
+    transition: all linear .5s;
+}
+.hide-child{
+    max-height:0px;
+    transition: all linear .5s;
+}
+
+.category-text.category-text-add {
+    width: 60%;
+    height: 100%;
+}
+.category-wrapper.category-wrapper-add {
+    padding: 5px 16px;
+}
+.main-wrapper+.main-wrapper {
+    margin-top: 4px;
+}
+
+.category-text.category-text-add .p-inputtext {
+    width: 100%;
+    height: 100%;
+}
+.category-text p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 150%;
+    color: #000000;
+}
+.category-text-child p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    color: #212121;
+}
+
+.category-action-div i+i {
+    margin-left: 12px;
+}
+.category-action-div-child i+i {
+    margin-left: 7px;
+}
+.category-heading-div {
+    width: 100%;
+    height: 40px;
+    background: #F3F3F3;
+    border-radius: 5px 5px 0px 0px;
+padding: 5px 25px;
+}
+.category-heading-div p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.label-table-category {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.category-skeleton-div .p-skeleton {
+    background-color: rgba(32,151,243,0.1);
+    border-radius: 0px;
+}
+.category-wrapper-child-add {
+    padding: 5px 50px 5px 57px;
+}
+
+.category-text-child-add .p-inputtext {
+    width: 100%;
+    height: 100%;
+}
+
+.category-text-child-add {
+    width: 71%;
+    height: 100%;
+}
+
+.category-skeleton-div .p-skeleton:after {
+    background: linear-gradient(90deg, rgba(9, 142, 245, 0), rgba(9, 142, 245, 0.4), rgba(9, 142, 245, 0));
+}
+.radio-button-material {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #212121;
+}
+.radio-button-material:has(.p-radiobutton-checked){
+    font-weight: 600;
+}

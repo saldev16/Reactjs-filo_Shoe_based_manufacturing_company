@@ -1,0 +1,134 @@
+//Suggested location to add your overrides so that migration would be easy by just updating the SASS folder in the future
+@import "./_variables.scss";
+// background
+.bg-main {
+    background: $main;
+}
+.bg-dark-color {
+    background: $dark-color;
+}
+.bg-orange {
+    background: $orange;
+}
+.bg-gray {
+    background: $gray;
+}
+.bg-brown {
+    background: $brown;
+}
+.bg-voilet {
+    background: $voilet;
+}
+.bg-green {
+    background: $green;
+}
+.bg-red {
+    background: $red;
+}
+.bg-dark-black {
+    background: $dark-black;
+}
+.bg-pink {
+    background: $pink;
+}
+.bg-dark-green {
+    background: $dark-green;
+}
+.bg-light-red {
+    background: $light-red;
+}
+.bg-dark-blue {
+    background: $dark-blue;
+}
+.bg-light-blue {
+    background: $light-blue;
+}
+.bg-dark-brown {
+    background: $dark-brown;
+}
+.bg-dark-gray {
+    background: $dark-gray;
+}
+.bg-light-green {
+    background: $light-green;
+}
+.bg-lightest-gray {
+    background: $lightest-gray;
+}
+.bg-lightest-blue {
+    background: $lightest-blue;
+}
+.bg-light-gray {
+    background: $light-gray;
+}
+
+// color
+.text-main {
+    color: $main;
+}
+.text-main-color {
+    color: $main-color;
+}
+.text-dark-color {
+    color: $dark-color;
+}
+.text-light-gray {
+    color: $light-gray;
+}
+.text-lightest-gray {
+    color: $lightest-gray;
+}
+.text-orange {
+    color: $orange;
+}
+.text-gray {
+    color: $gray;
+}
+.text-brown {
+    color: $brown;
+}
+.text-voilet {
+    color: $voilet;
+}
+.text-green {
+    color: $green;
+}
+.text-red {
+    color: $red;
+}
+.text-dark-black {
+    color: $dark-black;
+}
+.text-pink {
+    color: $pink;
+}
+.text-dark-green {
+    color: $dark-green;
+}
+.text-light-red {
+    color: $light-red;
+}
+.text-dark-blue {
+    color: $dark-blue;
+}
+.text-light-blue {
+    color: $light-blue;
+}
+.text-dark-brown {
+    color: $dark-brown;
+}
+.text-dark-gray {
+    color: $dark-gray;
+}
+.text-light-green {
+    color: $light-green;
+}
+
+// radius
+.curve {
+    border-radius: 10px;
+}
+// border-radius
+.border-color {
+    border: 1px solid $main;
+}

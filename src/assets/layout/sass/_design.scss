@@ -1,0 +1,28 @@
+.photo-upload {
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.project-forms form .p-inputtext {
+    width: 88%;
+}
+.project-forms ul.p-inputtext.p-chips-multiple-container {
+    width: 100%;
+}
+.fit-cover {
+    object-fit: cover;
+}
+.operational-table {
+    min-height: 300px;
+    // max-height: 500px;
+}
+.tools_width.p-chips .p-chips-multiple-container {
+    width: 100% !important;
+}
+.profile_img {
+    margin-top: -70px !important;
+    position: relative;
+    filter: drop-shadow(0px 2.1037px 6.31111px rgba(0, 0, 0, 0.11));
+}

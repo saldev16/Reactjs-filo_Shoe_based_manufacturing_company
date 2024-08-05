@@ -1,0 +1,154 @@
+@import "./assets/layout/layout.scss";
+@import "./assets/layout/_variables.scss";
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.glass {
+    box-shadow: 0px 0px 159px rgba(176, 176, 176, 0.7) !important;
+}
+
+.dashboard-card {
+    box-shadow: 0px 0px 28px rgba(255, 184, 145, 0.8);
+    border-radius: 17px;
+    cursor: pointer;
+}
+.tabview-header .p-tabview-panels {
+    background: none !important;
+    padding: 0 !important;
+}
+.tabview-header .p-tabview-nav-container {
+    display: none;
+}
+.top-headerlink.p-button .p-button-label {
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+}
+// .top-headerlink.p-button.active {
+//     border-top: 3px solid $main !important;
+//     border-radius: 0;
+//     background: #e5f0fa !important;
+// }
+
+.header img {
+    width: 24px;
+    height: 24px;
+    margin: 9px 37px 9px 27px;
+}
+.main-background {
+    min-height: 80vh;
+    background: linear-gradient(180deg, #457cb1 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+// material page
+
+.material-accordion a {
+    border: none !important;
+    background: rgb(32, 151, 243, 0.1) !important;
+}
+.material-accordion a .p-accordion-header-text {
+    width: 100%;
+}
+.material-accordion .p-accordion-content {
+    background: $lightest-gray;
+    border: none;
+}
+.chips .p-inputtext {
+    width: 100%;
+}
+
+// tools
+.tools-accordion .p-accordion-content {
+    padding: 1.25rem 0 1.25rem 0;
+}
+
+.profile-box {
+    overflow-x: scroll;
+}
+.profile-box::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+.profile-box::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+.profile-box::-webkit-scrollbar-thumb {
+    background: #d9d9d9;
+}
+
+/* Handle on hover */
+.profile-box::-webkit-scrollbar-thumb:hover {
+    background: #cfcfcf;
+}
+
+// tabview.................
+
+.p-tabview-nav-link {
+    background-color: $light-gray !important;
+}
+.p-tabview-selected .p-tabview-nav-link {
+    background-color: $main !important;
+    color: $lightest-gray !important;
+}
+.p-tabview-panels {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#blue .p-dropdown {
+    background-color: $main !important;
+}
+#blue .p-dropdown-label {
+    color: $lightest-gray !important;
+}
+#blue .p-dropdown .p-dropdown-trigger {
+    color: $lightest-gray !important;
+}
+.photoDiv {
+    position: relative;
+    i {
+        background-color: $lightest-gray;
+        border-radius: 50%;
+        position: absolute;
+        right: 2px;
+        top: 2px;
+    }
+}
+
+.dashboardModuleCard {
+    width: 20%;
+}
+@media only screen and (max-width: 768px) {
+    .dashboardModuleCard {
+        width: 25%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .dashboardModuleCard {
+        width: 33%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .dashboardModuleCard {
+        width: 50%;
+    }
+}
+
+.menu-bar > .p-menubar-button {
+    align-self: self-end;
+}
+.p-chips-multiple-container > .p-chips-token {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.react-flow__attribution.bottom > a {
+    display: none;
+}
+
+// .p-radiobutton .p-radiobutton-box {
+//     border-radius: 20% !important;
+// }

@@ -1,0 +1,25 @@
+.layout-main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    padding: 4rem 0rem 2rem 0rem;
+    transition: margin-left $transitionDuration;
+}
+
+.layout-main-container-rtl {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    padding: 4rem 0rem 2rem 0rem;
+    transition: margin-right $transitionDuration;
+
+    .p-datatable .p-datatable-tbody tr td {
+        text-align: right;
+    }
+}
+
+.layout-main {
+    flex: 1 1 auto;
+}

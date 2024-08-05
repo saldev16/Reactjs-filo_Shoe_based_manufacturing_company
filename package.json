@@ -1,0 +1,68 @@
+{
+    "name": "filo7-admin",
+    "version": "7.0.3-SNAPSHOT",
+    "homepage": ".",
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/primefaces/sakai-react.git"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.4.0",
+        "@fortawesome/free-solid-svg-icons": "^6.4.0",
+        "@fortawesome/react-fontawesome": "^0.2.0",
+        "@fullcalendar/core": "^5.7.2",
+        "@fullcalendar/daygrid": "^5.7.2",
+        "@fullcalendar/interaction": "^5.7.2",
+        "@fullcalendar/react": "^5.7.0",
+        "@fullcalendar/timegrid": "^5.7.2",
+        "axios": "^0.19.0",
+        "chart.js": "3.3.2",
+        "classnames": "^2.2.6",
+        "jwt-decode": "^3.1.2",
+        "moment": "^2.29.4",
+        "node": "^20.2.0",
+        "primeflex": "^3.2.1",
+        "primeicons": "^6.0.1",
+        "primereact": "^8.6.0",
+        "prismjs": "1.9.0",
+        "react": "^17.0.1",
+        "react-app-polyfill": "^1.0.6",
+        "react-clear-cache": "^1.4.14",
+        "react-d3-tree": "^3.6.1",
+        "react-dom": "^17.0.1",
+        "react-redux": "^7.2.5",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "3.4.1",
+        "react-to-print": "^2.14.13",
+        "react-transition-group": "^4.4.1",
+        "react-tree-graph": "^8.0.1",
+        "reactflow": "^11.8.3",
+        "redux": "^4.1.1",
+        "redux-persist": "^6.0.0",
+        "redux-thunk": "^2.3.0",
+        "sass": "^1.32.8",
+        "uuid": "^9.0.0"
+    },
+    "scripts": {
+        "start": "react-scripts --openssl-legacy-provider start",
+        "build": "react-scripts --openssl-legacy-provider build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app"
+        ]
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "devDependencies": {
+        "eslint": "^6.6.0"
+    }
+}
